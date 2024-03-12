@@ -1,0 +1,16 @@
+public class Gelas {
+	private String Warna;
+	
+	public Gelas(String w) {
+		Warna = w;
+	}
+	
+	//setter
+	void setWarna(String w) {
+		Warna = w;
+	}
+	//getter
+	String getWarna() {
+		return Warna;
+	}
+}
